@@ -1,0 +1,29 @@
+.site-main > .surface .postArticle {
+  background-color: rgba(0,0,0,0.85);
+}
+
+.site-main > .surface {
+  color: rgba(255,255,255,0.75);
+}
+
+.site-main > .surface .graf--h2, .site-main > .surface .graf--h3, .site-main > .surface .graf--h4 {
+  color: #00adee !important;
+}
+
+.site-main > .surface .tags--borderless .tag-button,.site-main > .surface .tags--borderless>.button,.site-main > .surface .tags--borderless>a,.site-main > .surface .tags--borderless>li {
+  border : 1px solid white;
+  color: white;
+}
+
+.site-main > .surface .uiScale .ui-body {
+  color: #c0c0c0 !important;
+  fill: #c0c0c0 !important;
+}
+
+.site-main > .surface .link--primary {
+  color: white;
+}
+
+body.is-withMagicUnderlines .postArticle.is-withAccentColors .markup--quote.is-other {
+  background-image: linear-gradient(to bottom, rgba(232, 242, 255, 0), rgba(232, 242, 255, 0));
+}

@@ -1,0 +1,195 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  z-index: 10;
+  height: 50px;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0,0,0,.09);
+}
+.main-logo {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  z-index: 10;
+  box-shadow: 30px 50px 5px white;
+  height: 50px;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  float: left;
+}
+/*  in section */
+section {
+  margin: 55px 0 55px 0;
+  align-items: center;
+}
+
+.content {
+  margin: 0 0 10px 0;
+  border: 1px solid rgba(0, 0, 0, 0.30);
+}
+.content > div {
+  padding: 0;
+}
+.content > div > .row {
+  margin: 5px 0 5px 0;
+  align-items: center;
+}
+.content-icon {
+  text-align: right;
+}
+.content-icon > img {
+  margin-left: 5px;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+}
+.title-image {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.main-content img{
+  width: 100%;
+  height: 250px;
+}
+.main-content > .col-12 {
+  padding: 0;
+}
+.content-description {
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+  bottom: 0;
+}
+
+.content-description span {
+  background-color: rgba(24, 24, 24, 0.80);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 0 5px 0 5px;
+}
+.content-description > div{
+  line-height: 32px;
+}
+
+
+/* 우선 지움 */
+.search-bar {
+  border-radius: 2px;
+}
+#input-container .icon {
+  position: absolute;
+  bottom: 2px;
+  right: 35px;
+}
+
+
+/* register */
+.input-icon {
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+}
+.input-group {
+  margin-bottom: 15px;
+}
+/*
+#btns{
+  display: flex;
+}
+#btns > div{
+  flex: 1;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+*/
+p {
+  font: 1rem sans-serif;
+  margin-top: 20px;
+  text-align: center;
+}
+p.background {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+p.background:before {
+  border-top: 2px solid rgba(0, 0, 0, 0.3);
+  content: "";
+  margin: 0 auto;
+  /* this centers the line to the full width specified */
+  position: absolute;
+  /* positioning must be absolute here, and relative positioning must be applied to the parent */
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 95%;
+  z-index: -1;
+}
+p.background span {
+  /* to hide the lines from behind the text, you have to set the background color the same as the container */
+  background: #fff;
+  padding: 0 15px;
+}
+
+.social-word{
+  font-size: 1.2rem;
+  margin: 15px auto;
+}
+.social-big-word{
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#social-media {
+  text-align: center;
+}
+.social-icon {
+  width: 48px;
+  height: 48px;
+}
+
+/* for vertical center modal  https://codepen.io/dimbslmh/full/mKfCc */
+/*
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.modal-dialog {
+  margin: 0;
+}
+*/
+#carouselContent{
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.modal-dialog {
+  margin: 0;
+  width: 100%;
+}

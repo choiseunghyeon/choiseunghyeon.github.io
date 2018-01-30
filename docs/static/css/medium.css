@@ -1,0 +1,98 @@
+body{
+  color: #c0c0c0;
+}
+.screenContent {
+  background-color: #1b1b1b;
+}
+.metabar {
+  background-color: #1b1b1b;
+  border-bottom: 1px solid white;
+  color: #c0c0c0;
+}
+
+.uiScale .ui-caps {
+  color: #c0c0c0 !important;
+  fill: #c0c0c0 !important;
+}
+.u-textColorDarker {
+  color: #c0c0c0 !important;
+  fill: #c0c0c0 !important;
+}
+
+.button {
+  color: white;
+
+}
+.button--withChrome.button--small {
+  border : 1px solid white;
+}
+
+.button--chromeless .svgIcon {
+  fill: white;
+}
+
+.u-borderBottomLighter {
+  border-bottom: 1px solid rgba(255, 255, 255, 1) !important;
+}
+
+.u-textColorNormal {
+  color: #c0c0c0 !important;
+  fill: #c0c0c0 !important;
+}
+
+.u-backgroundColorWhite {
+  background-color: rgba(255, 255, 255,0) !important;
+}
+
+.uiScale .ui-caption {
+  color: rgba(255,255,255,0.5) !important;
+  fill:rgba(255,255,255,0.5) !important;
+}
+.uiScale .ui-h1, .uiScale .ui-h2, .uiScale .ui-h3, .uiScale .ui-h4 {
+  color : #00adee!important;
+  fill : #00adee!important;
+}
+.uiScale .ui-summary {
+  color : white !important;
+  fill : white !important;
+}
+
+.uiScale .ui-captionStrong{
+  color: #c0c0c0 !important;
+  fill: #c0c0c0 !important;
+}
+
+.u-borderBlackLightest{
+  border-bottom : 1px solid rgba(255,255,255,0.5) !important;
+  border-right: 1px solid rgba(255,255,255,0.5) !important;
+}
+
+.heading--borderedBottom {
+  border-bottom-color: rgba(255,255,255,1) !important;
+}
+
+.u-borderColorNormal{
+  border-color: white !important;
+}
+.button--dark .svgIcon{
+  fill: white;
+}
+
+.popover {
+  color: black !important;
+}
+
+.cardChromeless {
+  background: rgba(0,0,0,0.85);
+  border: 1px solid rgba(255,255,255,0.4) !important;
+}
+
+.textInput--darkText {
+  color : white;
+}
+.heading{
+  color: white;
+}
+..postArticle.postArticle--short:not(.postArticle--letter) {
+  padding: 15px;
+}
